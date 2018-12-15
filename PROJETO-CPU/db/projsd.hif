@@ -1,0 +1,324 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+7
+3700
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+register
+# storage
+db|projsd.(3).cnf
+db|projsd.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+register.v
+4fea9342b2da8f6424f927988eee97
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+Hold
+0000
+PARAMETER_UNSIGNED_BIN
+USR
+Load
+0001
+PARAMETER_UNSIGNED_BIN
+USR
+Clear
+0010
+PARAMETER_UNSIGNED_BIN
+USR
+Shift_Right
+0011
+PARAMETER_UNSIGNED_BIN
+USR
+Shift_Left
+0100
+PARAMETER_UNSIGNED_BIN
+USR
+}
+# hierarchies {
+register:inst10
+register:inst9
+register:inst8
+}
+# macro_sequence
+
+# end
+# entity
+ULA
+# storage
+db|projsd.(5).cnf
+db|projsd.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+ula.v
+2c86633d4f44a9956fc135e68ac818d
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+Add
+0
+PARAMETER_UNSIGNED_BIN
+USR
+Sub
+1
+PARAMETER_UNSIGNED_BIN
+USR
+}
+# hierarchies {
+ULA:inst7
+}
+# macro_sequence
+
+# end
+# entity
+counter
+# storage
+db|projsd.(1).cnf
+db|projsd.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+counter.v
+89e3cc405e144ab64f15f739752536d1
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+max
+0100
+PARAMETER_UNSIGNED_BIN
+USR
+}
+# hierarchies {
+counter:inst
+}
+# macro_sequence
+
+# end
+# entity
+controler
+# storage
+db|projsd.(2).cnf
+db|projsd.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+controler.v
+9729763954aa71b3f3808ef9558ca476
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+Clear_Add
+0000
+PARAMETER_UNSIGNED_BIN
+USR
+Add_Load
+0001
+PARAMETER_UNSIGNED_BIN
+USR
+Add
+0010
+PARAMETER_UNSIGNED_BIN
+USR
+Shift_Right
+0011
+PARAMETER_UNSIGNED_BIN
+USR
+Disp
+0100
+PARAMETER_UNSIGNED_BIN
+USR
+}
+# hierarchies {
+controler:inst5
+}
+# macro_sequence
+
+# end
+# entity
+counter
+# storage
+db|projsd.(0).cnf
+db|projsd.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+counter.v
+89e3cc405e144ab64f15f739752536d1
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+max
+0100
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# macro_sequence
+
+# end
+# entity
+CPU
+# storage
+db|projsd.(4).cnf
+db|projsd.(4).cnf
+# case_insensitive
+# source_file
+cpu.bdf
+da1c1d753e2a6ca683184de1b7b09fb3
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+memory
+# storage
+db|projsd.(6).cnf
+db|projsd.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+memory.v
+f8d6ab3047642e40fe39648a1ba7f
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+memory:inst13
+}
+# macro_sequence
+
+# end
+# complete
+
