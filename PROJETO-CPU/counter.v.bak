@@ -1,0 +1,26 @@
+module counter(clock, rco, cont);
+    
+    input wire clock;
+    output reg[3:0] cont;
+    output reg rco;
+    
+    initial cont = 4'b0001;
+    parameter max = 4'b0100;
+    
+    always @(posedge clock) begin 
+    
+        if (cont == max) begin
+        
+            cont <= 4'b0000;
+            rco <= 1;
+            
+        end else begin 
+        
+            cont <= cont + 1;
+            rco <= 0;
+            
+        end
+        
+    end
+    
+endmodule 
